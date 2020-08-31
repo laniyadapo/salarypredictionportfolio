@@ -2,7 +2,7 @@
 
 
 <p align="center">
-  <img src="images/salary-img.jpg"width="10" height="10">
+  <img src="images/salary-img.jpg"width="200" height="200">
 </p>  
 # A job candidates dream is well summarised by Jerry Jones - "It wouldn't be the worst thing in the world if we didn't have a salary cap."
 
