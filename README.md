@@ -69,3 +69,7 @@ The first row of each file contains headers for the columns. Keep in mind that t
 2. Create models
 3. Test models
 4. Select best model
+### MODEL DEPLOYMENT
+1. Automate pipeline
+2. Deploy solution
+3. Measure efficacy
