@@ -74,6 +74,14 @@ The first row of each file contains headers for the columns. Keep in mind that t
    - Each model was evaluated using optimal parameters derived.
 4. Test models
    - Models were tested using the split test data from the transformed merged data.
+
+Model | Reasoning
+------------ | -------------
+BENCHMARK – LinearRegression | MSE: ~384.3
+LinearRegression (with interaction) | MSE: ~353.7
+RandomForestRegressor | MSE: ~371.2
+BEST - GradientBoostingRegressor | MSE: ~ 
+StackingRegressor | MSE: ~ 
 5. Select best model
    - Model has the lowest MSE, hence it is selected for the salary prediction with the test dataset
 ### MODEL DEPLOYMENT
