@@ -42,11 +42,11 @@ The first row of each file contains headers for the columns. Keep in mind that t
 4. Clean data
    - No duplicates in data
    - Datasets do not have null values
-   - Data inspected for invalid data i.e. presence of outliers. Outliers then reviewed and dropped data (5 rows) below the lower bounds for suspected ouliers. 
+   - Data inspected for invalid data i.e. presence of outliers. Outliers then reviewed and dropped 5 rows of data with invalid Salary data i.e. Zero Salary)
 5. Explore data
    - Summarize Numerical and Categorical variables. Confirmed jobId is a unique identifier for the job posting.
    - Review Correlation between each feature and the target variable using plots and feature counts as required.
-   - Identify correlation between all features respectively. Snapshot of produced heatmap below. 
+   - Identify correlation between all features respectively by using label encoding categorical features with the mean salary. Snapshot of produced heatmap below. 
    
 <p align="center">
   <img src="images/correlation_heatmap.jpg"width="600" height="600">
@@ -57,6 +57,7 @@ The first row of each file contains headers for the columns. Keep in mind that t
 7. Hypothesize solutions
    - A suite of regression supervised learning algorithms are selected to improve the MSE metric with the training data.
      - Linear Regression - simple to implement and easier to interpret the output coefficients.
+     - Linear Regression with Interaction variables - explore the significance of relationships between various features.
      - Random Forest Regressor - improves the accuracy by reducing overfitting problem and the variance in decision trees.
      - GradientBoostingRegressor - Typically produces best predictions because it can optimize on different loss functions and provides several hyperparameter tuning options that make the function fit very flexible.
      - Stacking Regressor - Combination method to improve the mse of the best of the 3 models.
@@ -67,9 +68,21 @@ The first row of each file contains headers for the columns. Keep in mind that t
    - Transform categorical features into individual binary feature using the one hot encoding approach.
    - Split transformed data into train and test data for use during model creation and evaluation process.
 2. Create models
-3. Test models
-4. Select best model
+   - All models are created in this section
+   - Hypertuning of models were done using Google Colab for the random forest and Gradient Boost Model was tuned in the notebook.
+3. Evaluate Models 
+   - Each model was evaluated using optimal parameters derived.
+4. Test models
+   - Models were tested using the split test data from the transformed merged data.
+5. Select best model
+   - Model has the lowest MSE, hence it is selected for the salary prediction with the test dataset
 ### MODEL DEPLOYMENT
-1. Automate pipeline
-2. Deploy solution
+1. Train best model selected on the entire training data.
+2. Score the Test Dataset
+   - Inspect and encode data to match the shape of the train dataset
+   - Deploy the model on the test data to predict salaries
+   - Combine the orinal test data with the predicted salaries and export to csv as a deliverable
+3. Feature Importance
+   - Define function
+   - Derive feature importance
 3. Measure efficacy
