@@ -80,8 +80,8 @@ Model | Reasoning
 BENCHMARK – LinearRegression | MSE: ~384.3
 LinearRegression (with interaction) | MSE: ~353.7
 RandomForestRegressor | MSE: ~371.2
-BEST - GradientBoostingRegressor | MSE: ~ 
-StackingRegressor | MSE: ~ 
+BEST - GradientBoostingRegressor | MSE: ~ 360.9 
+StackingRegressor | MSE: ~ 359.4
 5. Select best model
    - Model has the lowest MSE, hence it is selected for the salary prediction with the test dataset
 ### MODEL DEPLOYMENT
