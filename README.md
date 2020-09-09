@@ -75,7 +75,7 @@ The first row of each file contains headers for the columns. Keep in mind that t
    - Models were tested using the split test data from the transformed merged data.
 
 <p align="center">
-  <img src="images/correlation_heatmap.jpg"width="600" height="600">
+  <img src="images/model_eval.jpg"width="400" height="400">
 </p> 
 
 Model | Reasoning
@@ -86,14 +86,18 @@ RandomForestRegressor | MSE: ~368.3
 BEST - GradientBoostingRegressor | MSE: ~ 359.9 
 
 5. Select best model
-   - Model has the lowest MSE, hence it is selected for the salary prediction with the test dataset
+   - LinearRegression (with interaction) model has the lowest MSE, hence it is selected for the salary prediction with the test dataset
 ### MODEL DEPLOYMENT
 1. Train best model selected on the entire training data.
 2. Score the Test Dataset
-   - Inspect and encode data to match the shape of the train dataset
+   - Encode data to match the shape of the train dataset 
    - Deploy the model on the test data to predict salaries
-   - Combine the orinal test data with the predicted salaries and export to csv as a deliverable
+   - Combine the original test data with the predicted salaries and export to csv as a deliverable
 3. Feature Importance
    - Define function
    - Derive feature importance
+
+<p align="center">
+  <img src="images/model_eval.jpg"width="400" height="400">
+</p>  
 3. Measure efficacy
