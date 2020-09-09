@@ -98,6 +98,15 @@ BEST - GradientBoostingRegressor | MSE: ~ 359.9
    - Derive feature importance
 
 <p align="center">
-  <img src="images/model_eval.jpg"width="400" height="400">
+  <img src="images/feature_importance.jpg"width="500" height="500">
 </p>  
-3. Measure efficacy
+
+4. Summarize the predicted 
+   - Visualize target variable data
+   - Compare the predicted salaries with the training data salary. See powerpoint for summary.
+
+<p align="center">
+  <img src="images/happy_employee.jpg"width="500" height="500">
+</p>  
+
+A day’s pay for a day’s work is more than adequate when both the work and the pay are appreciated as much as they are expected. - Cullen Hightower
