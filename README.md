@@ -60,7 +60,6 @@ The first row of each file contains headers for the columns. Keep in mind that t
      - Linear Regression with Interaction variables - explore the significance of relationships between various features.
      - Random Forest Regressor - improves the accuracy by reducing overfitting problem and the variance in decision trees.
      - GradientBoostingRegressor - Typically produces best predictions because it can optimize on different loss functions and provides several hyperparameter tuning options that make the function fit very flexible.
-     - Stacking Regressor - Combination method to improve the mse of the best of the 3 models.
    - Also Summary Statistics were computed for each group based on groupings of the top highly correlated features to generate new features. 
    - Importance of these new features will be evaluated later in the project.
 ### MODEL DEVELOPMENT 
@@ -75,13 +74,17 @@ The first row of each file contains headers for the columns. Keep in mind that t
 4. Test models
    - Models were tested using the split test data from the transformed merged data.
 
+<p align="center">
+  <img src="images/correlation_heatmap.jpg"width="600" height="600">
+</p> 
+
 Model | Reasoning
 ------------ | -------------
-BENCHMARK – LinearRegression | MSE: ~384.3
-LinearRegression (with interaction) | MSE: ~353.7
-RandomForestRegressor | MSE: ~371.2
-BEST - GradientBoostingRegressor | MSE: ~ 360.9 
-StackingRegressor | MSE: ~ 359.4
+BENCHMARK – LinearRegression | MSE: ~384.6
+LinearRegression (with interaction) | MSE: ~354.7
+RandomForestRegressor | MSE: ~368.3
+BEST - GradientBoostingRegressor | MSE: ~ 359.9 
+
 5. Select best model
    - Model has the lowest MSE, hence it is selected for the salary prediction with the test dataset
 ### MODEL DEPLOYMENT
