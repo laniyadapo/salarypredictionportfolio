@@ -8,7 +8,7 @@
 
 It wouldn't be the worst thing in the world if we didn't have a salary cap. - Jerry Jones
 
-The jupyter notebook in this repo is procedural, it contains explaination of all the steps and respective findings with the use of markdowns. This readme will give a summary of the steps and results of the project.
+The jupyter notebook in this repo is procedural, it contains explanation of all the steps and respective findings with the use of markdowns. This readme will give a summary of the steps and results of the project.
 
 ### PROBLEM DEFINITION
 An organization's ability to maintain a fair and balanced pay structure in line with internal and external (industry) factors is vital for it's success and employee retention KPI. Coming up with the right salary offer to candidates during recruitment process is crucial in attracting good talents to an organization.
