@@ -102,7 +102,7 @@ BEST - GradientBoostingRegressor | MSE: ~ 359.9
 </p>  
 
 4. Summarize the predicted 
-   - Visualize target variable data
+   - Visualize predicted salary data
    - Compare the predicted salaries with the training data salary. See powerpoint for summary.
 
 <p align="center">
