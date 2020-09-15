@@ -60,8 +60,6 @@ The first row of each file contains headers for the columns. Keep in mind that t
      - Linear Regression with Interaction variables - explore the significance of relationships between various features.
      - Random Forest Regressor - improves the accuracy by reducing overfitting problem and the variance in decision trees.
      - GradientBoostingRegressor - Typically produces best predictions because it can optimize on different loss functions and provides several hyperparameter tuning options that make the function fit very flexible.
-   - Also Summary Statistics were computed for each group based on groupings of the top highly correlated features to generate new features. 
-   - Importance of these new features will be evaluated later in the project.
 ### MODEL DEVELOPMENT 
 1. Feature Engineering
    - Transform categorical features into individual binary feature using the one hot encoding approach.
