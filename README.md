@@ -101,7 +101,7 @@ BEST - GradientBoostingRegressor | MSE: ~ 359.9
 
 4. Summarize the predicted 
    - Visualize predicted salary data
-   - Compare the predicted salaries with the training data salary. See powerpoint for summary.
+   - Compare the predicted salaries with the training data salary. See powerpoint for summary and conclusions based on the model.
 
 <p align="center">
   <img src="images/happy_employee.jpg"width="400" height="400">
