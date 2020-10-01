@@ -76,7 +76,7 @@ The first row of each file contains headers for the columns. Keep in mind that t
   <img src="images/model_eval.jpg"width="400" height="400">
 </p> 
 
-Model | Reasoning
+Model | Score
 ------------ | -------------
 BENCHMARK – LinearRegression | MSE: ~384.6
 LinearRegression (with interaction) | MSE: ~354.7
